@@ -314,7 +314,7 @@ span a{
     }
     50% {
         transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-        background-color:#FFF;
+        background-color: red;
         -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
     }
     100% {
