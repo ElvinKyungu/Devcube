@@ -310,16 +310,16 @@ span a{
     0% {
         transform: perspective(120px) rotateX(0deg) rotateY(0deg);
         -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-        background-color: #23004D;
+        background-color: var(--first-color-dark);
     }
     50% {
         transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-        background-color: red;
+        background-color: var(--first-color);
         -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
     }
     100% {
         transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
         -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-        background-color:#9D4BFF;
+        background-color:var(--first-color);
     }
 }
